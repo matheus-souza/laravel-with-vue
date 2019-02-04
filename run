@@ -1,0 +1,3 @@
+cd ./laradock
+docker-compose up -d nginx postgres
+docker-compose exec --user=laradock workspace bash
